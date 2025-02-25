@@ -1,7 +1,7 @@
 import React from "react";
 import Link from "next/link";
 import Image from "next/image";
-import Logo from "/Users/brycemartin/Documents/Side-Hustle-AI/side-hustle-ai/public/logo.png";
+import Logo from "../../public/logo.png";
 
 export default function Footer() {
   return (
