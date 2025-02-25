@@ -8,7 +8,7 @@ export default function QuickLinks() {
       <h2 className="text-3xl font-bold text-[#202f46] mb-14">
         Explore Our Features
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 ">
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6 justify-items-center">
         {/* Step-by-Step Guides Card */}
         <Link
           href="/guides"

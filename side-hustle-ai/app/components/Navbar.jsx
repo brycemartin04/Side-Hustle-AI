@@ -7,9 +7,9 @@ export default function Navbar() {
   return (
     <nav className="bg-[#23C686] py-[1.65rem] fixed top-0 w-full z-50">
       <div className="max-w-3xl mx-auto flex items-center justify-between px-6 ">
-        <Link href="/" className="flex items-center gap-3">
+        <Link href="/" className="items-center gap-3 hidden md:flex">
           <Image src={Logo} alt="Logo" width={70} quality={100} />
-          <h1 className="text-white text-xl drop-shadow-md font-bold cursor-pointer">
+          <h1 className="text-white hidden md:block text-xl drop-shadow-md font-bold cursor-pointer">
             Side Hustle AI
           </h1>
         </Link>
