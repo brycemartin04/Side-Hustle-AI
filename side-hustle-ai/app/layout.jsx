@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Side Hustle AI",
+  title: "Side Hustle AI | Discover Your Next Side Hustle",
   description:
     "Explore expert side hustle ideas, step-by-step guides, and proven strategies to transform your free time into a profitable business. Get inspired and unlock your entrepreneurial potential with Side Hustle AI.",
 };
