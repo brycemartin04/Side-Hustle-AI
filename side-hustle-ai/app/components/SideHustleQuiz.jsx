@@ -206,7 +206,7 @@ export default function SideHustleQuiz() {
               <button
                 key={index}
                 onClick={() => handleAnswer(option)}
-                className="w-full p-2 bg-[#23C686] text-white text-xl rounded-lg hover:bg-[#13B676] font-semibold transition duration-300"
+                className="w-full p-2 bg-[#23C686] text-white text-xl rounded-lg hover:bg-[#13B676] font-semibold transition-transform transform hover:scale-105 duration-300"
               >
                 {option}
               </button>

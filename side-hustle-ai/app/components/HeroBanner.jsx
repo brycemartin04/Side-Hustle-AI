@@ -1,6 +1,6 @@
 export default function HeroBanner() {
   return (
-    <section className="relative flex flex-col items-center justify-center text-center bg-gradient-to-b from-[#23C686] via-[#ADEEC5] to-white text-[#1B5E20] pb-28 pt-20  px-6 overflow-hidden">
+    <section className="relative flex flex-col items-center justify-center text-center bg-gradient-to-b from-[#23C686] via-[#ADEEC5] to-white text-[#1B5E20] pb-28 pt-20 px-6 overflow-hidden">
       {/* Main Content - Shifted Higher */}
       <h1 className="text-6xl font-bold text-white mb-6 drop-shadow-lg">
         Build. Hustle. Succeed.

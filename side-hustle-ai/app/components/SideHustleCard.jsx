@@ -21,9 +21,6 @@ export default function SideHustleCard({
       <p className="text-sm font-semibold text-[#23C686]">
         Investment: {investment}
       </p>
-      <button className="mt-4 px-4 py-2 cursor-pointer bg-[#23C686] text-white rounded-lg hover:bg-[#1ea56f] transition">
-        Learn More
-      </button>
     </div>
   );
 }

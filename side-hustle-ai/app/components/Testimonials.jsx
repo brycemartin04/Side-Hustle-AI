@@ -3,30 +3,30 @@ import React from "react";
 
 const testimonials = [
   {
-    name: "Alex Johnson",
+    name: "Marie Forleo, Founder of B-School",
     feedback:
-      "This platform helped me start my first side hustle with ease! The guidance and tips were invaluable.",
-    image: "/customer1.jpg",
+      "In today's world, anyone with a passion and a laptop can turn their ideas into income. But success doesn't come overnight. Focus on building value, and the profits will follow.",
+    image: "/marie.jpeg",
   },
   {
-    name: "Samantha Lee",
+    name: "Pat Flynn, Founder of Smart Passive Income",
     feedback:
-      "I found the perfect side hustle idea here and turned it into a full-time income. Highly recommended!",
-    image: "/customer2.jpg",
+      "Your side hustle isn't just a way to make extra money—it's a chance to build something you're passionate about. When you focus on solving real problems, your side hustle will turn into something bigger than you ever imagined.",
+    image: "/pat-flynn.webp",
   },
   {
-    name: "David Martinez",
+    name: 'Gary Vaynerchuk, Entrepreneur and Author of "Crushing It!"',
     feedback:
-      "Clear, concise, and incredibly helpful! The investment breakdowns made it easy to choose the right hustle.",
-    image: "/customer3.jpg",
+      "You need to constantly be in do mode…Being unafraid of making mistakes makes everything easy for me. Hear me now: you are better off being wrong ten times and being right three than you are if you try only three times and always get it right.",
+    image: "/gary-v.jpg",
   },
 ];
 
 export default function CustomerTestimonials() {
   return (
-    <div className="max-w-4xl mx-auto p-12 text-center">
+    <div className="max-w-4xl mx-auto  mt-2 p-12 text-center">
       <h2 className="text-3xl font-bold text-[#202f46] mb-6">
-        What Our Users Say
+        Hear From The Experts
       </h2>
       <div className="flex flex-wrap justify-center gap-6">
         {testimonials.map((testimonial, index) => (

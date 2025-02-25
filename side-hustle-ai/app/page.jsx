@@ -3,6 +3,7 @@ import HeroBanner from "./components/HeroBanner";
 import SideHustleQuiz from "./components/SideHustleQuiz";
 import SideHustleFactsSlider from "./components/Slider";
 import CustomerTestimonials from "./components/Testimonials";
+import QuickLinks from "./components/QuickLinks";
 
 export default function Home() {
   return (
@@ -10,8 +11,8 @@ export default function Home() {
       <HeroBanner />
       <SideHustleFactsSlider />
       <SideHustleQuiz />
+      <QuickLinks />
       <CustomerTestimonials />
-      <div className="flex-1 flex-1.bg-[#FBFCF6] min-h-screen "></div>
     </div>
   );
 }
