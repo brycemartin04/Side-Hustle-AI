@@ -26,6 +26,8 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <SpeedInsights />
+        <Analytics />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1861495067845215"
