@@ -26,8 +26,6 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
-        <SpeedInsights />
-        <Analytics />
         <Script
           async
           src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1861495067845215"
@@ -39,6 +37,8 @@ export default function RootLayout({ children }) {
       >
         <Navbar />
         <div className="mt-20">{children}</div>
+        <SpeedInsights />
+        <Analytics />
         <Footer />
       </body>
     </html>
