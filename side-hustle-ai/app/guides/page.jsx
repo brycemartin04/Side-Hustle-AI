@@ -1,6 +1,12 @@
 import React from "react";
 import Link from "next/link";
 
+export const metadata = {
+  title: "Side Hustle Guides | Step-by-Step Business Guides",
+  description:
+    "Explore expert step-by-step guides on starting side hustles, including reselling, dropshipping, YouTube content creation, and more. Turn your passion into profit today!",
+};
+
 export default function GuidesPage() {
   const guides = [
     {

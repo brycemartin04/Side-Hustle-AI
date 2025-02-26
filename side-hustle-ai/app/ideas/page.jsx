@@ -1,6 +1,18 @@
-"use client";
 import React from "react";
 import SideHustleCard from "../components/SideHustleCard";
+
+export const metadata = {
+  title: "Side Hustle Ideas - Beginner to Advanced",
+  description:
+    "Explore various side hustle ideas categorized by skill level, from beginner to advanced, with investment estimates and descriptions.",
+  keywords: [
+    "side hustles",
+    "make money online",
+    "passive income",
+    "freelancing",
+    "business ideas",
+  ],
+};
 
 const sideHustles = {
   Beginner: [
